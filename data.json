@@ -1,0 +1,79 @@
+[
+    {
+        "hoTenCBNV": "Cao Văn Lộc",
+        "quanHeVoiNhanVien": "Vợ",
+        "hoTenNguoiLienQuan": "Nguyễn Thị Hường",
+        "diaChiNguoiLienQuan": "Thôn Liên Hà - xã Ô Diên - TP Hà Nội",
+        "soCCCD": "001191032229",
+        "ngayCapCCCD": "2021-04-16",
+        "noiCapCCCD": "Cục CSQLHC về TTXH",
+        "soDienThoai": "0376052205",
+        "id": 1
+    },
+    {
+        "hoTenCBNV": "Nguyễn Minh Thành",
+        "quanHeVoiNhanVien": "Mẹ vợ",
+        "hoTenNguoiLienQuan": "Nguyễn Thị Bảo",
+        "diaChiNguoiLienQuan": "Thôn Liên Hà, xã Ô Diên, TP Hà Nội",
+        "soCCCD": "001158021621",
+        "ngayCapCCCD": "2021-03-28",
+        "noiCapCCCD": "Cục CS QLHC về TTXH",
+        "soDienThoai": "0339806805",
+        "id": 2
+    },
+    {
+        "hoTenCBNV": "Nguyễn Văn Hiệu",
+        "quanHeVoiNhanVien": "Bố vợ",
+        "hoTenNguoiLienQuan": "Nguyễn Bá Hải",
+        "diaChiNguoiLienQuan": "Thôn Liên Hà - Xã Ô Diên - TP Hà Nội",
+        "soCCCD": "001073018637",
+        "ngayCapCCCD": "2021-04-29",
+        "noiCapCCCD": "Cục CSQLHC về TTXH",
+        "soDienThoai": "0975550007",
+        "id": 3
+    },
+    {
+        "hoTenCBNV": "Vũ Thị Hạnh ",
+        "quanHeVoiNhanVien": "chồng ",
+        "hoTenNguoiLienQuan": "Nguyễn Quang Trung ",
+        "diaChiNguoiLienQuan": "Thôn Liên Hà - Xã Ô Diên - Thành phố Hà Nội ",
+        "soCCCD": "001082010411",
+        "ngayCapCCCD": "2021-05-01",
+        "noiCapCCCD": "Cục CS QLHC về TTXH",
+        "soDienThoai": "0985809855",
+        "id": 4
+    },
+    {
+        "hoTenCBNV": "Nguyễn Văn Hiệu",
+        "quanHeVoiNhanVien": "Mẹ vợ",
+        "hoTenNguoiLienQuan": "Nguyễn Thị Bích",
+        "diaChiNguoiLienQuan": "Thôn Liên Hà - Xã Ô Diên - TP Hà Nội",
+        "soCCCD": "001178017991",
+        "ngayCapCCCD": "2021-04-29",
+        "noiCapCCCD": "Cục CSQLHC về TTXH\t",
+        "soDienThoai": "0982592794",
+        "id": 5
+    },
+    {
+        "hoTenCBNV": "Vũ Thị Hạnh ",
+        "quanHeVoiNhanVien": "con ",
+        "hoTenNguoiLienQuan": "Nguyễn Hương Giang ",
+        "diaChiNguoiLienQuan": "Thôn Liên Hà - Xã Ô Diên - Thành phố Hà Nội ",
+        "soCCCD": "001306029302",
+        "ngayCapCCCD": "2021-04-16",
+        "noiCapCCCD": "Cục CS QLHC về TTXH",
+        "soDienThoai": "0988909206",
+        "id": 6
+    },
+    {
+        "hoTenCBNV": "Nguyễn Văn Hiệu",
+        "quanHeVoiNhanVien": "Vợ",
+        "hoTenNguoiLienQuan": "Nguyễn Thị Mai",
+        "diaChiNguoiLienQuan": "Thôn Thượng Thôn - Xã Ô Diên - TP Hà Nội",
+        "soCCCD": "001197024002",
+        "ngayCapCCCD": "2021-04-19",
+        "noiCapCCCD": "Cục CSQLHC về TTXH\t",
+        "soDienThoai": "0988464573",
+        "id": 7
+    }
+]

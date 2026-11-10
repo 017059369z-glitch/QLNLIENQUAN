@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Sửa thông tin</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f3f4f6;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+h2{
+    margin-top:0;
+    color:#0d6efd;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+    margin-bottom:4px;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    background:#198754;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+}
+
+button:hover{
+    background:#157347;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:15px;
+    text-decoration:none;
+    color:#0d6efd;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Sửa thông tin</h2>
+
+<form action="/update/{{ row.id }}" method="post">
+
+<label>Họ và tên nhân viên</label>
+<input
+    type="text"
+    name="ten_nv"
+    value="{{ row.ten_nv }}"
+    required>
+
+<label>MST nhân viên</label>
+<input
+    type="text"
+    name="mst_nv"
+    value="{{ row.mst_nv }}"
+    required>
+
+<label>Số điện thoại</label>
+<input
+    type="text"
+    name="sdt"
+    value="{{ row.sdt }}"
+    required>
+
+<label>Họ và tên người liên quan</label>
+<input
+    type="text"
+    name="ten_lq"
+    value="{{ row.ten_lq }}"
+    required>
+
+<label>Ngày sinh người liên quan</label>
+<input
+    type="date"
+    name="ngaysinh"
+    value="{{ row.ngaysinh }}"
+    required>
+
+<label>MST người liên quan</label>
+<input
+    type="text"
+    name="mst_lienquan"
+    value="{{ row.mst_lq or '' }}">
+
+<label>CCCD người liên quan</label>
+<input
+    type="text"
+    name="cccd_lq"
+    maxlength="12"
+    value="{{ row.cccd_lq or '' }}">
+
+<label>Ngày cấp CCCD</label>
+<input
+    type="date"
+    name="ngaycap_cccd"
+    value="{{ row.ngaycap_cccd or '' }}">
+
+<label>Nơi cấp CCCD</label>
+<input
+    type="text"
+    name="noicap_cccd"
+    value="{{ row.noicap_cccd or '' }}">
+
+<label>Quan hệ với nhân viên</label>
+
+<input
+    list="quanhe_list"
+    name="quanhe"
+    value="{{ row.quanhe }}"
+    required>
+
+<datalist id="quanhe_list">
+    <option value="Con">
+    <option value="Cha">
+    <option value="Mẹ">
+    <option value="Vợ">
+    <option value="Chồng">
+    <option value="Anh">
+    <option value="Chị">
+    <option value="Em">
+    <option value="Ông">
+    <option value="Bà">
+</datalist>
+
+<button type="submit">
+💾 Cập nhật thông tin
+</button>
+
+</form>
+
+<a href="/" class="back-btn">
+← Quay lại danh sách
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
